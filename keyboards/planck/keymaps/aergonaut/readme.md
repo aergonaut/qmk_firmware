@@ -1,11 +1,19 @@
 # aergonaut's Planck layout
 
+![planck layout](https://cl.ly/0f1e60511766/planck.png)
+
 This is my lightly customized Planck layout. For the most part it is the same as
-the default layout. The primary difference is that Tab and Esc are swapped, and
+the default layout.
+
+The primary difference is that Tab and Esc are swapped, and
 Esc is replaced with Grave Escape. This lets me use Cmd+\` to switch windows
 without having to hold a layer key. I also replaced Enter with Shift Enter,
 which allows me to have a key that performs Enter when tapped and Shift when
 held down.
+
+There is also an additional function layer called Fn. This gives me access to
+Vim motion keys on HJKL. It also gives me Del on Backspace, and lets me send the
+correct key combo to put my Macbook to sleep with Esc.
 
 ## Building and Flashing
 
