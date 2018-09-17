@@ -1,6 +1,6 @@
 # aergonaut's Planck layout
 
-![planck layout](https://cl.ly/0f1e60511766/planck.png)
+![planck layout](planck.png)
 
 This is my lightly customized Planck layout. For the most part it is the same as
 the default layout.
