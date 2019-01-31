@@ -45,6 +45,7 @@ enum planck_keycodes {
 #define KC_OSX_EJECT 0x66
 #define LOCK_OSX LSFT(LCTL(KC_OSX_EJECT))
 #define SLEEP_OSX LALT(LGUI(KC_OSX_EJECT))
+#define KC_ONEPASS LALT(LGUI(KC_BSLS))
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
@@ -188,7 +189,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  */
 [_MOVEMENT] = LAYOUT_planck_grid(
     SLEEP_OSX, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, KC_DEL ,
-    _______, _______, _______, _______, _______, _______, KC_LEFT, KC_DOWN, KC_UP  , KC_RGHT, _______, _______,
+    _______, _______, _______, _______, _______, _______, KC_LEFT, KC_DOWN, KC_UP  , KC_RGHT, _______, KC_ONEPASS,
     _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,
     _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______
 )
